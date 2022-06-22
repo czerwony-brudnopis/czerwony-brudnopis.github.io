@@ -1,1298 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<tinderbox version="2" revision="13" savedBy="version 9.0.0 b523" uuid="51D47BB2-6C2E-4459-B095-82D7A6388F24" >
-<attrib Name="anything" editable="0" visibleInEditor="1" default="" >
-<attrib Name="System" parent="anything" editable="0" visibleInEditor="1" default="" >
-<attrib Name="AI" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="DominantLanguage" parent="AI" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="NLNames" parent="AI" editable="1" visibleInEditor="1" type="8" default="" >
-</attrib>
-<attrib Name="NLOrganizations" parent="AI" editable="1" visibleInEditor="1" type="8" default="" >
-</attrib>
-<attrib Name="NLPlaces" parent="AI" editable="1" visibleInEditor="1" type="8" default="" >
-</attrib>
-<attrib Name="NLTags" parent="AI" editable="1" visibleInEditor="1" type="8" default="" >
-</attrib>
-<attrib Name="Sentiment" parent="AI" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="Sentiments" parent="AI" editable="1" visibleInEditor="1" type="10" default="" >
-</attrib>
-</attrib>
-<attrib Name="Agent" parent="System" editable="0" visibleInEditor="1" type="4" default="false" >
-<attrib Name="AgentAction" parent="Agent" editable="1" visibleInEditor="1" type="7" default="" >
-</attrib>
-<attrib Name="AgentCaseSensitive" parent="Agent" editable="1" visibleInEditor="1" type="4" default="true" >
-</attrib>
-<attrib Name="AgentPriority" parent="Agent" editable="1" visibleInEditor="1" type="2" default="1" >
-</attrib>
-<attrib Name="AgentQuery" parent="Agent" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="CleanupAction" parent="Agent" editable="1" visibleInEditor="1" canInherit="0" default="grid" >
-</attrib>
-</attrib>
-<attrib Name="Appearance" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="AccentColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="dark warm gray dark" >
-</attrib>
-<attrib Name="Badge" parent="Appearance" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="BadgeMonochrome" parent="Appearance" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="BadgeSize" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="Border" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="1" >
-</attrib>
-<attrib Name="BorderBevel" parent="Appearance" editable="1" visibleInEditor="1" default="plain" >
-</attrib>
-<attrib Name="BorderColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="automatic" >
-</attrib>
-<attrib Name="BorderDash" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="CaptionAlignment" parent="Appearance" editable="1" visibleInEditor="1" default="left" >
-</attrib>
-<attrib Name="CaptionColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="blue" >
-</attrib>
-<attrib Name="CaptionFont" parent="Appearance" editable="1" visibleInEditor="1" type="11" default="SketchnoteSquare" >
-</attrib>
-<attrib Name="CaptionOpacity" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="100" >
-</attrib>
-<attrib Name="CaptionSize" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="100" >
-</attrib>
-<attrib Name="Color" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="7" >
-</attrib>
-<attrib Name="Flags" parent="Appearance" editable="1" visibleInEditor="1" type="10" canInherit="0" default="" >
-</attrib>
-<attrib Name="Opacity" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="100" >
-</attrib>
-<attrib Name="Pattern" parent="Appearance" editable="1" visibleInEditor="1" default="plain" >
-</attrib>
-<attrib Name="PlotColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="light green" >
-</attrib>
-<attrib Name="Shadow" parent="Appearance" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="ShadowBlur" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="5" >
-</attrib>
-<attrib Name="ShadowColor" parent="Appearance" editable="1" visibleInEditor="1" type="1" default="lighter black" >
-</attrib>
-<attrib Name="ShadowDistance" parent="Appearance" editable="1" visibleInEditor="1" type="2" default="5" >
-</attrib>
-<attrib Name="Shape" parent="Appearance" editable="1" visibleInEditor="1" suggested="normal;rectangle;oval;diamond;tag;vertical tag;bubble;hex;lozenge;cloud;leaf;banner;arrow" default="" >
-</attrib>
-</attrib>
-<attrib Name="Composites" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="Associates" parent="Composites" editable="0" visibleInEditor="1" type="8" canInherit="0" default="" >
-</attrib>
-<attrib Name="IsComposite" parent="Composites" editable="0" visibleInEditor="1" type="4" canInherit="0" default="false" >
-</attrib>
-<attrib Name="IsMultiple" parent="Composites" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="NeverComposite" parent="Composites" editable="1" visibleInEditor="1" type="4" canInherit="0" default="true" >
-</attrib>
-<attrib Name="OnJoin" parent="Composites" editable="1" visibleInEditor="1" type="7" default="" >
-</attrib>
-<attrib Name="Role" parent="Composites" editable="1" visibleInEditor="1" default="" >
-</attrib>
-</attrib>
-<attrib Name="Events" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="DueDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
-</attrib>
-<attrib Name="EndDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
-</attrib>
-<attrib Name="StartDate" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
-</attrib>
-<attrib Name="TimelineAliases" parent="Events" editable="1" visibleInEditor="1" type="4" default="true" >
-</attrib>
-<attrib Name="TimelineBand" parent="Events" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
-</attrib>
-<attrib Name="TimelineBandLabelColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="black" >
-</attrib>
-<attrib Name="TimelineBandLabelOpacity" parent="Events" editable="1" visibleInEditor="1" type="2" default="25" >
-</attrib>
-<attrib Name="TimelineBandLabels" parent="Events" editable="1" visibleInEditor="1" type="10" default="" >
-</attrib>
-<attrib Name="TimelineColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="lighter warm gray" >
-</attrib>
-<attrib Name="TimelineDescendants" parent="Events" editable="1" visibleInEditor="1" type="4" default="true" >
-</attrib>
-<attrib Name="TimelineEnd" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
-</attrib>
-<attrib Name="TimelineEndAttribute" parent="Events" editable="1" visibleInEditor="1" default="EndDate" >
-</attrib>
-<attrib Name="TimelineGridColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="#009090" >
-</attrib>
-<attrib Name="TimelineMarker" parent="Events" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="TimelineScaleColor" parent="Events" editable="1" visibleInEditor="1" type="1" default="cool gray" >
-</attrib>
-<attrib Name="TimelineScaleColor2" parent="Events" editable="1" visibleInEditor="1" type="1" default="" >
-</attrib>
-<attrib Name="TimelineStart" parent="Events" editable="1" visibleInEditor="1" type="5" default="never" >
-</attrib>
-<attrib Name="TimelineStartAttribute" parent="Events" editable="1" visibleInEditor="1" default="StartDate" >
-</attrib>
-</attrib>
-<attrib Name="General" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="AdornmentCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="Aliases" parent="General" editable="1" visibleInEditor="1" type="10" default="" >
-</attrib>
-<attrib Name="Caption" parent="General" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Checked" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="ChildCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="ClusterTerms" parent="General" editable="1" visibleInEditor="1" type="8" default="" >
-</attrib>
-<attrib Name="Container" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="" >
-</attrib>
-<attrib Name="Created" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
-</attrib>
-<attrib Name="CreatedFrom" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="" >
-</attrib>
-<attrib Name="Creator" parent="General" editable="0" visibleInEditor="1" kind="1" canInherit="0" default="Arkadiusz Szlaga" >
-</attrib>
-<attrib Name="DescendantCount" parent="General" editable="0" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="DisplayExpression" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
-</attrib>
-<attrib Name="DisplayExpressionDisabled" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
-</attrib>
-<attrib Name="DisplayName" parent="General" editable="0" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Edict" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
-</attrib>
-<attrib Name="EdictDisabled" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
-</attrib>
-<attrib Name="File" parent="General" editable="1" visibleInEditor="1" type="3" default="" >
-</attrib>
-<attrib Name="HoverExpression" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
-</attrib>
-<attrib Name="HoverImage" parent="General" editable="1" visibleInEditor="1" type="3" default="" >
-</attrib>
-<attrib Name="HoverOpacity" parent="General" editable="1" visibleInEditor="1" type="2" default="0.5" >
-</attrib>
-<attrib Name="ID" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
-</attrib>
-<attrib Name="InboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
-</attrib>
-<attrib Name="IsAdornment" parent="General" editable="0" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="IsAlias" parent="General" editable="0" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="IsPrototype" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
-</attrib>
-<attrib Name="LocalAttributes" parent="General" editable="0" visibleInEditor="1" type="8" canInherit="0" default="" >
-</attrib>
-<attrib Name="Modified" parent="General" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
-</attrib>
-<attrib Name="Name" parent="General" editable="1" visibleInEditor="1" canInherit="0" default="untitled" >
-</attrib>
-<attrib Name="OnAdd" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
-</attrib>
-<attrib Name="OnRemove" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
-</attrib>
-<attrib Name="OutboundLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
-</attrib>
-<attrib Name="OutlineDepth" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
-</attrib>
-<attrib Name="OutlineOrder" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
-</attrib>
-<attrib Name="Path" parent="General" editable="0" visibleInEditor="1" canInherit="0" default="" >
-</attrib>
-<attrib Name="PlainLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
-</attrib>
-<attrib Name="Private" parent="General" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="Prototype" parent="General" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="PrototypeBequeathsChildren" parent="General" editable="1" visibleInEditor="1" type="4" default="true" >
-</attrib>
-<attrib Name="Rule" parent="General" editable="1" visibleInEditor="1" type="7" default="" >
-</attrib>
-<attrib Name="RuleDisabled" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="false" >
-</attrib>
-<attrib Name="Searchable" parent="General" editable="1" visibleInEditor="1" type="4" canInherit="0" default="true" >
-</attrib>
-<attrib Name="SelectionCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
-</attrib>
-<attrib Name="SiblingOrder" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
-</attrib>
-<attrib Name="Subtitle" parent="General" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="TextLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
-</attrib>
-<attrib Name="WebLinkCount" parent="General" editable="0" visibleInEditor="1" type="2" canInherit="0" default="0" >
-</attrib>
-</attrib>
-<attrib Name="Grid" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="GridColor" parent="Grid" editable="1" visibleInEditor="1" type="1" default="#ffffff" >
-</attrib>
-<attrib Name="GridColumns" parent="Grid" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="GridLabelFont" parent="Grid" editable="1" visibleInEditor="1" type="11" default="IdealSansSSm-Book" >
-</attrib>
-<attrib Name="GridLabelSize" parent="Grid" editable="1" visibleInEditor="1" type="2" default="10" >
-</attrib>
-<attrib Name="GridLabels" parent="Grid" editable="1" visibleInEditor="1" type="10" default="" >
-</attrib>
-<attrib Name="GridOpacity" parent="Grid" editable="1" visibleInEditor="1" type="2" default="75" >
-</attrib>
-<attrib Name="GridRows" parent="Grid" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-</attrib>
-<attrib Name="HTML" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="HTMLBoldEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/b&gt;" >
-</attrib>
-<attrib Name="HTMLBoldStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;b&gt;" >
-</attrib>
-<attrib Name="HTMLCloud1End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
-</attrib>
-<attrib Name="HTMLCloud1Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 0.75em&quot; &gt;" >
-</attrib>
-<attrib Name="HTMLCloud2End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
-</attrib>
-<attrib Name="HTMLCloud2Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 1em&quot; &gt;" >
-</attrib>
-<attrib Name="HTMLCloud3End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
-</attrib>
-<attrib Name="HTMLCloud3Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 1.4em&quot; &gt;" >
-</attrib>
-<attrib Name="HTMLCloud4End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
-</attrib>
-<attrib Name="HTMLCloud4Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2em&quot; &gt;" >
-</attrib>
-<attrib Name="HTMLCloud5End" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/span&gt;" >
-</attrib>
-<attrib Name="HTMLCloud5Start" parent="HTML" editable="1" visibleInEditor="1" default="&lt;span style=&quot;font-size: 2.8em&quot; &gt;" >
-</attrib>
-<attrib Name="HTMLCodeEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/code&gt;" >
-</attrib>
-<attrib Name="HTMLCodeStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;code&gt;" >
-</attrib>
-<attrib Name="HTMLDontExport" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="HTMLEntities" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="HTMLExportAfter" parent="HTML" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="HTMLExportBefore" parent="HTML" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="HTMLExportChildren" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
-</attrib>
-<attrib Name="HTMLExportCommand" parent="HTML" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="HTMLExportExtension" parent="HTML" editable="1" visibleInEditor="1" default=".html" >
-</attrib>
-<attrib Name="HTMLExportFileName" parent="HTML" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="HTMLExportFileNameSpacer" parent="HTML" editable="1" visibleInEditor="1" default="_" >
-</attrib>
-<attrib Name="HTMLExportPath" parent="HTML" editable="0" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="HTMLExportTemplate" parent="HTML" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="HTMLFileNameLowerCase" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="HTMLFileNameMaxLength" parent="HTML" editable="1" visibleInEditor="1" type="2" default="24" >
-</attrib>
-<attrib Name="HTMLFirstParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
-</attrib>
-<attrib Name="HTMLFirstParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p&gt;" >
-</attrib>
-<attrib Name="HTMLFont" parent="HTML" editable="1" visibleInEditor="1" type="11" default="Andale Mono" >
-</attrib>
-<attrib Name="HTMLFontSize" parent="HTML" editable="1" visibleInEditor="1" type="2" default="13" >
-</attrib>
-<attrib Name="HTMLImageEnd" parent="HTML" editable="1" visibleInEditor="1" default="&gt;" >
-</attrib>
-<attrib Name="HTMLImageStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;img" >
-</attrib>
-<attrib Name="HTMLIndentedParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/blockquote&gt;" >
-</attrib>
-<attrib Name="HTMLIndentedParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;blockquote&gt;" >
-</attrib>
-<attrib Name="HTMLItalicEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/i&gt;" >
-</attrib>
-<attrib Name="HTMLItalicStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;i&gt;" >
-</attrib>
-<attrib Name="HTMLLinkExtension" parent="HTML" editable="1" visibleInEditor="1" default=".html" >
-</attrib>
-<attrib Name="HTMLListEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/ul&gt;" >
-</attrib>
-<attrib Name="HTMLListItemEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/li&gt;" >
-</attrib>
-<attrib Name="HTMLListItemStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;li&gt;" >
-</attrib>
-<attrib Name="HTMLListStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;ul&gt;" >
-</attrib>
-<attrib Name="HTMLMarkdown" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="HTMLMarkupText" parent="HTML" editable="1" visibleInEditor="1" type="4" default="true" >
-</attrib>
-<attrib Name="HTMLOrderedListEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/ol&gt;" >
-</attrib>
-<attrib Name="HTMLOrderedListItemEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/li&gt;" >
-</attrib>
-<attrib Name="HTMLOrderedListItemStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;li&gt;" >
-</attrib>
-<attrib Name="HTMLOrderedListStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;ol&gt;" >
-</attrib>
-<attrib Name="HTMLOverwriteImages" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="HTMLParagraphEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/p&gt;" >
-</attrib>
-<attrib Name="HTMLParagraphStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;p&gt;" >
-</attrib>
-<attrib Name="HTMLPreviewCommand" parent="HTML" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="HTMLQuoteHTML" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="HTMLStrikeEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/strike&gt;" >
-</attrib>
-<attrib Name="HTMLStrikeStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;strike&gt;" >
-</attrib>
-<attrib Name="HTMLUnderlineEnd" parent="HTML" editable="1" visibleInEditor="1" default="&lt;/u&gt;" >
-</attrib>
-<attrib Name="HTMLUnderlineStart" parent="HTML" editable="1" visibleInEditor="1" default="&lt;u&gt;" >
-</attrib>
-<attrib Name="IsTemplate" parent="HTML" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-</attrib>
-<attrib Name="Internal" parent="System" editable="0" visibleInEditor="0" default="" >
-<attrib Name="Alias" parent="Internal" editable="0" visibleInEditor="0" type="6" default="0" >
-</attrib>
-<attrib Name="EntryScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
-</attrib>
-<attrib Name="ExitScript" parent="Internal" editable="0" visibleInEditor="0" default="" >
-</attrib>
-<attrib Name="WindowPlace" parent="Internal" editable="0" visibleInEditor="0" kind="21" type="100" canInherit="0" default="Rect[ 50 50 750 1150]" >
-</attrib>
-</attrib>
-<attrib Name="Iris" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="IrisAngle" parent="Iris" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="IrisRadius" parent="Iris" editable="1" visibleInEditor="1" type="2" default="1" >
-</attrib>
-</attrib>
-<attrib Name="Map" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="AdornmentFont" parent="Map" editable="1" visibleInEditor="1" type="11" default="RingsideCondensedSSm-Light" >
-</attrib>
-<attrib Name="Base" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
-</attrib>
-<attrib Name="Bend" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="Direction" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="Fill" parent="Map" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="FillOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.75" >
-</attrib>
-<attrib Name="HTMLMarkDown" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="Height" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="1.86" >
-</attrib>
-<attrib Name="HoverFont" parent="Map" editable="1" visibleInEditor="1" type="11" default="RingsideCondensedSSm-Med" >
-</attrib>
-<attrib Name="InteriorScale" parent="Map" editable="1" visibleInEditor="1" kind="20" type="2" default="1.5" >
-</attrib>
-<attrib Name="LeafBase" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
-</attrib>
-<attrib Name="LeafBend" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="LeafDirection" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="LeafTip" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
-</attrib>
-<attrib Name="Lock" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="MapBackgroundAccentColor" parent="Map" editable="1" visibleInEditor="1" kind="24" type="1" default="gray" >
-</attrib>
-<attrib Name="MapBackgroundColor" parent="Map" editable="1" visibleInEditor="1" kind="3" type="1" default="gray" >
-</attrib>
-<attrib Name="MapBackgroundColor2" parent="Map" editable="1" visibleInEditor="1" type="1" default="gray" >
-</attrib>
-<attrib Name="MapBackgroundFill" parent="Map" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="MapBackgroundFillOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.1" >
-</attrib>
-<attrib Name="MapBackgroundPattern" parent="Map" editable="1" visibleInEditor="1" kind="25" default="plain" >
-</attrib>
-<attrib Name="MapBackgroundShadow" parent="Map" editable="1" visibleInEditor="1" type="4" default="true" >
-</attrib>
-<attrib Name="MapBodyTextColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
-</attrib>
-<attrib Name="MapBodyTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="MapNameSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="100" >
-</attrib>
-<attrib Name="MapScrollX" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
-</attrib>
-<attrib Name="MapScrollY" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
-</attrib>
-<attrib Name="MapTextSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="100" >
-</attrib>
-<attrib Name="NameAlignment" parent="Map" editable="1" visibleInEditor="1" default="left" >
-</attrib>
-<attrib Name="NameBold" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="NameColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
-</attrib>
-<attrib Name="NameFont" parent="Map" editable="1" visibleInEditor="1" kind="2" type="11" default="IdealSansSSm-Book" >
-</attrib>
-<attrib Name="NameLeading" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="NameStrike" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="PlotBackgroundColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="white" >
-</attrib>
-<attrib Name="PlotBackgroundOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="50" >
-</attrib>
-<attrib Name="PlotColorList" parent="Map" editable="1" visibleInEditor="1" type="10" default="2;7;3;8;4;9;0;5;1;6" >
-</attrib>
-<attrib Name="Sticky" parent="Map" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="SubtitleColor" parent="Map" editable="1" visibleInEditor="1" type="1" default="automatic" >
-</attrib>
-<attrib Name="SubtitleOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="50" >
-</attrib>
-<attrib Name="SubtitleSize" parent="Map" editable="1" visibleInEditor="1" type="2" default="75" >
-</attrib>
-<attrib Name="TableExpression" parent="Map" editable="1" visibleInEditor="1" type="7" default="" >
-</attrib>
-<attrib Name="TableHeading" parent="Map" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Tip" parent="Map" editable="1" visibleInEditor="1" type="2" default="0.5" >
-</attrib>
-<attrib Name="TitleHeight" parent="Map" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="TitleOpacity" parent="Map" editable="1" visibleInEditor="1" type="2" default="100" >
-</attrib>
-<attrib Name="Width" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="3" >
-</attrib>
-<attrib Name="Xpos" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
-</attrib>
-<attrib Name="Ypos" parent="Map" editable="1" visibleInEditor="1" type="2" canInherit="0" default="0" >
-</attrib>
-</attrib>
-<attrib Name="Net" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="AutoFetch" parent="Net" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="AutoFetchCommand" parent="Net" editable="1" visibleInEditor="1" type="7" default="" >
-</attrib>
-<attrib Name="LastFetched" parent="Net" editable="0" visibleInEditor="1" type="5" canInherit="0" default="never" >
-</attrib>
-<attrib Name="NoteURL" parent="Net" editable="0" visibleInEditor="1" default="false" >
-</attrib>
-<attrib Name="RawData" parent="Net" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="URL" parent="Net" editable="1" visibleInEditor="1" type="9" default="" >
-</attrib>
-<attrib Name="ViewInBrowser" parent="Net" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-</attrib>
-<attrib Name="Outline" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="OutlineBackgroundColor" parent="Outline" editable="1" visibleInEditor="1" type="1" default="automatic" >
-</attrib>
-<attrib Name="OutlineColorSwatch" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="OutlineNameSize" parent="Outline" editable="1" visibleInEditor="1" type="2" default="100" >
-</attrib>
-<attrib Name="OutlineTextSize" parent="Outline" editable="1" visibleInEditor="1" type="2" default="100" >
-</attrib>
-<attrib Name="PrototypeHighlightColor" parent="Outline" editable="1" visibleInEditor="1" kind="13" type="1" default="#cceecc" >
-</attrib>
-<attrib Name="Separator" parent="Outline" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-</attrib>
-<attrib Name="People" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="Email" parent="People" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="FullName" parent="People" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Organization" parent="People" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Telephone" parent="People" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Twitter" parent="People" editable="1" visibleInEditor="1" default="" >
-</attrib>
-</attrib>
-<attrib Name="Places" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="Address" parent="Places" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="City" parent="Places" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Country" parent="Places" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="District" parent="Places" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="FormattedAddress" parent="Places" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="GeocodedAddress" parent="Places" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Latitude" parent="Places" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="Longitude" parent="Places" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="PostalCode" parent="Places" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Range" parent="Places" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="State" parent="Places" editable="1" visibleInEditor="1" default="" >
-</attrib>
-</attrib>
-<attrib Name="References" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="Abstract" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="AccessDate" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="ArticleTitle" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Author2" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Author3" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Author4" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Authors" parent="References" editable="1" visibleInEditor="1" type="8" default="" >
-</attrib>
-<attrib Name="BookTitle" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="CallNumber" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="DOI" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Edition" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="ISBN" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Issue" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Journal" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Pages" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="PublicationCity" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="PublicationYear" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Publisher" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="RefFormat" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="RefKeywords" parent="References" editable="1" visibleInEditor="1" type="8" default="" >
-</attrib>
-<attrib Name="RefType" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="ReferenceDictionary" parent="References" editable="1" visibleInEditor="1" type="13" default="" >
-</attrib>
-<attrib Name="ReferenceRIS" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="ReferenceTitle" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="ReferenceURL" parent="References" editable="1" visibleInEditor="1" type="9" default="" >
-</attrib>
-<attrib Name="SourceCreated" parent="References" editable="1" visibleInEditor="1" type="5" default="never" >
-</attrib>
-<attrib Name="SourceModified" parent="References" editable="1" visibleInEditor="1" type="5" default="never" >
-</attrib>
-<attrib Name="Tags" parent="References" editable="1" visibleInEditor="1" type="8" default="" >
-</attrib>
-<attrib Name="Volume" parent="References" editable="1" visibleInEditor="1" default="" >
-</attrib>
-</attrib>
-<attrib Name="Sandbox" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="MyBoolean" parent="Sandbox" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="MyColor" parent="Sandbox" editable="1" visibleInEditor="1" type="1" default="" >
-</attrib>
-<attrib Name="MyDate" parent="Sandbox" editable="1" visibleInEditor="1" type="5" default="never" >
-</attrib>
-<attrib Name="MyDictionary" parent="Sandbox" editable="1" visibleInEditor="1" type="13" default="" >
-</attrib>
-<attrib Name="MyInterval" parent="Sandbox" editable="1" visibleInEditor="1" type="12" default="00:00" >
-</attrib>
-<attrib Name="MyList" parent="Sandbox" editable="1" visibleInEditor="1" type="10" default="" >
-</attrib>
-<attrib Name="MyNumber" parent="Sandbox" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="MySet" parent="Sandbox" editable="1" visibleInEditor="1" type="8" default="" >
-</attrib>
-<attrib Name="MyString" parent="Sandbox" editable="1" visibleInEditor="1" default="" >
-</attrib>
-</attrib>
-<attrib Name="Scrivener" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="ScrivenerCompileAsIs" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
-</attrib>
-<attrib Name="ScrivenerFileExtension" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
-</attrib>
-<attrib Name="ScrivenerFreeformFlag" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
-</attrib>
-<attrib Name="ScrivenerID" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="ScrivenerIconFileName" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
-</attrib>
-<attrib Name="ScrivenerIgnoresTitlePrefixAndSuffix" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
-</attrib>
-<attrib Name="ScrivenerIncludeInCompile" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
-</attrib>
-<attrib Name="ScrivenerIndexCardFileExension" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
-</attrib>
-<attrib Name="ScrivenerKeywords" parent="Scrivener" editable="1" visibleInEditor="1" type="8" default="" >
-</attrib>
-<attrib Name="ScrivenerLabel" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="ScrivenerLabelID" parent="Scrivener" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="ScrivenerNote" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="ScrivenerNoteRTF" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
-</attrib>
-<attrib Name="ScrivenerPageBreakBefore" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
-</attrib>
-<attrib Name="ScrivenerPreferredExternalApplication" parent="Scrivener" editable="1" visibleInEditor="0" default="" >
-</attrib>
-<attrib Name="ScrivenerShowSynopsisImage" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
-</attrib>
-<attrib Name="ScrivenerStatus" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="ScrivenerStatusID" parent="Scrivener" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="ScrivenerTemplateFolder" parent="Scrivener" editable="1" visibleInEditor="0" type="4" default="false" >
-</attrib>
-<attrib Name="ScrivenerType" parent="Scrivener" editable="1" visibleInEditor="1" default="" >
-</attrib>
-</attrib>
-<attrib Name="Sorting" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="Sort" parent="Sorting" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="SortAlso" parent="Sorting" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="SortAlsoTransform" parent="Sorting" editable="1" visibleInEditor="1" default="case-sensitive" >
-</attrib>
-<attrib Name="SortBackward" parent="Sorting" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="SortBackwardAlso" parent="Sorting" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="SortTransform" parent="Sorting" editable="1" visibleInEditor="1" default="case-sensitive" >
-</attrib>
-</attrib>
-<attrib Name="Storyspace" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="BeforeVisit" parent="Storyspace" editable="1" visibleInEditor="1" type="7" default="" >
-</attrib>
-<attrib Name="ChosenWord" parent="Storyspace" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Deck" parent="Storyspace" editable="1" visibleInEditor="1" type="8" default="" >
-</attrib>
-<attrib Name="OnVisit" parent="Storyspace" editable="1" visibleInEditor="1" type="7" default="" >
-</attrib>
-<attrib Name="Requirements" parent="Storyspace" editable="1" visibleInEditor="1" type="7" default="" >
-</attrib>
-<attrib Name="ResetAction" parent="Storyspace" editable="1" visibleInEditor="1" type="7" default="" >
-</attrib>
-<attrib Name="Visits" parent="Storyspace" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-</attrib>
-<attrib Name="TextFormat" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="CodeFont" parent="TextFormat" editable="1" visibleInEditor="1" type="11" default="Courier New" >
-</attrib>
-<attrib Name="DisplayedAttributes" parent="TextFormat" editable="1" visibleInEditor="1" type="10" default="" >
-</attrib>
-<attrib Name="DisplayedAttributesDateFormat" parent="TextFormat" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="DisplayedAttributesFont" parent="TextFormat" editable="1" visibleInEditor="1" type="11" default="IdealSansSSm-Book" >
-</attrib>
-<attrib Name="DisplayedAttributesFontSize" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="11" >
-</attrib>
-<attrib Name="HideDisplayedAttributes" parent="TextFormat" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="HideKeyAttributes" parent="TextFormat" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="HideTitle" parent="TextFormat" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="KeyAttributeDateFormat" parent="TextFormat" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="KeyAttributeFont" parent="TextFormat" editable="1" visibleInEditor="1" type="11" default="IdealSansSSm-Book" >
-</attrib>
-<attrib Name="KeyAttributeFontSize" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="11" >
-</attrib>
-<attrib Name="KeyAttributes" parent="TextFormat" editable="1" visibleInEditor="1" type="10" default="" >
-</attrib>
-<attrib Name="LeftMargin" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="2" >
-</attrib>
-<attrib Name="LineSpacing" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="100" >
-</attrib>
-<attrib Name="NoSpelling" parent="TextFormat" editable="1" visibleInEditor="1" kind="27" type="4" default="false" >
-</attrib>
-<attrib Name="ParagraphSpacing" parent="TextFormat" editable="1" visibleInEditor="1" kind="14" type="2" default="8" >
-</attrib>
-<attrib Name="RightMargin" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="2" >
-</attrib>
-<attrib Name="ShowTitle" parent="TextFormat" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="SmartLinks" parent="TextFormat" editable="1" visibleInEditor="1" type="4" default="true" >
-</attrib>
-<attrib Name="SmartQuotes" parent="TextFormat" editable="1" visibleInEditor="1" kind="26" type="4" default="true" >
-</attrib>
-<attrib Name="SyntaxHighlighting" parent="TextFormat" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="Tabs" parent="TextFormat" editable="1" visibleInEditor="1" default="0.25;0.25;0.25;0.25;" >
-</attrib>
-<attrib Name="TextAlign" parent="TextFormat" editable="1" visibleInEditor="1" kind="22" default="left" >
-</attrib>
-<attrib Name="TextBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="8" type="1" default="#ffffff" >
-</attrib>
-<attrib Name="TextColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="7" type="1" default="#000000" >
-</attrib>
-<attrib Name="TextFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="18" type="11" default="MercurySSm-Book" >
-</attrib>
-<attrib Name="TextFontSize" parent="TextFormat" editable="1" visibleInEditor="1" kind="19" type="2" default="16" >
-</attrib>
-<attrib Name="TextPaneRatio" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="0.5" >
-</attrib>
-<attrib Name="TextPaneWidth" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="-1" >
-</attrib>
-<attrib Name="TextSidebar" parent="TextFormat" editable="1" visibleInEditor="1" kind="17" type="4" default="false" >
-</attrib>
-<attrib Name="TextWindowHeight" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="250" >
-</attrib>
-<attrib Name="TextWindowWidth" parent="TextFormat" editable="1" visibleInEditor="1" type="2" default="475" >
-</attrib>
-<attrib Name="TitleBackgroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="12" type="1" default="#000000" >
-</attrib>
-<attrib Name="TitleFont" parent="TextFormat" editable="1" visibleInEditor="1" kind="4" type="11" default="IdealSansSSm-Book" >
-</attrib>
-<attrib Name="TitleForegroundColor" parent="TextFormat" editable="1" visibleInEditor="1" kind="11" type="1" default="#ffffff" >
-</attrib>
-<attrib Name="Ziplinks" parent="TextFormat" editable="1" visibleInEditor="1" type="4" default="true" >
-</attrib>
-</attrib>
-<attrib Name="Textual" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="EstimatedNoteSize" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="ImageCount" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="ReadOnly" parent="Textual" editable="1" visibleInEditor="1" type="4" default="false" >
-</attrib>
-<attrib Name="Text" parent="Textual" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="TextExportTemplate" parent="Textual" editable="1" visibleInEditor="1" kind="10" default="outline" >
-</attrib>
-<attrib Name="TextLength" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="UpdateTextLinksAfterRename" parent="Textual" editable="1" visibleInEditor="1" type="4" default="true" >
-</attrib>
-<attrib Name="WordCount" parent="Textual" editable="0" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="Wordcount" parent="Textual" editable="0" visibleInEditor="0" type="2" default="0" >
-</attrib>
-</attrib>
-<attrib Name="Watch" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="DEVONthinkGroup" parent="Watch" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="DEVONthinkLabel" parent="Watch" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="EvernoteNotebook" parent="Watch" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="NotesFolder" parent="Watch" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="NotesID" parent="Watch" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="NotesModified" parent="Watch" editable="1" visibleInEditor="1" type="5" default="never" >
-</attrib>
-<attrib Name="SimplenoteKey" parent="Watch" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="SimplenoteModified" parent="Watch" editable="1" visibleInEditor="1" type="5" default="never" >
-</attrib>
-<attrib Name="SimplenoteSync" parent="Watch" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="SimplenoteTags" parent="Watch" editable="1" visibleInEditor="1" type="8" default="" >
-</attrib>
-<attrib Name="SimplenoteVersion" parent="Watch" editable="1" visibleInEditor="1" type="2" default="0" >
-</attrib>
-<attrib Name="SourceURL" parent="Watch" editable="1" visibleInEditor="1" type="9" default="" >
-</attrib>
-<attrib Name="Tot" parent="Watch" editable="1" visibleInEditor="1" type="8" default="" >
-</attrib>
-<attrib Name="UUID" parent="Watch" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="WatchFolder" parent="Watch" editable="1" visibleInEditor="1" type="3" default="" >
-</attrib>
-</attrib>
-<attrib Name="Weblog" parent="System" editable="0" visibleInEditor="1" default="" >
-<attrib Name="WeblogPostID" parent="Weblog" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="mt_allow_comments" parent="Weblog" editable="1" visibleInEditor="1" type="2" default="1" >
-</attrib>
-<attrib Name="mt_allow_pings" parent="Weblog" editable="1" visibleInEditor="1" type="2" default="1" >
-</attrib>
-<attrib Name="mt_convert_breaks" parent="Weblog" editable="1" visibleInEditor="1" default="" >
-</attrib>
-<attrib Name="mt_keywords" parent="Weblog" editable="1" visibleInEditor="1" default="" >
-</attrib>
-</attrib>
-</attrib>
-<attrib Name="User" parent="anything" editable="0" visibleInEditor="1" default="" >
-</attrib>
-</attrib>
-<colors >
-<color name="0" color="#787a7a" hidden="0"  />
-<color name="1" color="#9ea0a1" hidden="0"  />
-<color name="2" color="#b4b7b8" hidden="0"  />
-<color name="3" color="#c3c6c7" hidden="0"  />
-<color name="4" color="#d0d3d4" hidden="0"  />
-<color name="5" color="#daddde" hidden="0"  />
-<color name="6" color="#e1e4e6" hidden="0"  />
-<color name="7" color="#e9ecee" hidden="0"  />
-<color name="8" color="#eff3f4" hidden="0"  />
-<color name="9" color="#f5f9fa" hidden="0"  />
-<color name="black" color="#000000" hidden="0"  />
-<color name="blue" color="#9888c2" hidden="0"  />
-<color name="bright blue" color="#0000ff" hidden="0"  />
-<color name="bright green" color="#00ff00" hidden="0"  />
-<color name="bright red" color="#ff0000" hidden="0"  />
-<color name="cool gray" color="#b8b8c4" hidden="0"  />
-<color name="cool gray dark" color="#888890" hidden="0"  />
-<color name="cyan" color="#92b5ba" hidden="0"  />
-<color name="gray" color="#f8fafa" hidden="0"  />
-<color name="green" color="#778f3b" hidden="0"  />
-<color name="magenta" color="#b85474" hidden="0"  />
-<color name="normal" color="#dc490b" hidden="0"  />
-<color name="orange" color="#f0b06f" hidden="0"  />
-<color name="poppy" color="#ffcc66" hidden="0"  />
-<color name="red" color="#914f4a" hidden="0"  />
-<color name="violet" color="#b692b4" hidden="0"  />
-<color name="warm gray" color="#c0b8b8" hidden="0"  />
-<color name="warm gray dark" color="#908888" hidden="0"  />
-<color name="white" color="#ffffff" hidden="0"  />
-<color name="yellow" color="#f5c992" hidden="0"  />
-</colors>
-<menu name="Value" kind="stamps" >
-</menu>
-<linkTypes >
-<linkType name="*untitled" label="" visible="1" showLabel="0" required="1" colorString="#000000" style="0" arrowType="0" onLink=""  />
-<linkType name="agree" visible="1" showLabel="1" required="0" colorString="#000000" style="0" arrowType="0" onLink=""  />
-<linkType name="clarify" visible="1" showLabel="1" required="0" colorString="#000000" style="0" arrowType="0" onLink=""  />
-<linkType name="disagree" visible="1" showLabel="1" required="0" colorString="#000000" style="0" arrowType="0" onLink=""  />
-<linkType name="example" visible="1" showLabel="1" required="0" colorString="#000000" style="0" arrowType="0" onLink=""  />
-<linkType name="exception" visible="1" showLabel="1" required="0" colorString="#000000" style="0" arrowType="0" onLink=""  />
-<linkType name="note" visible="1" showLabel="1" required="1" colorString="#666666" style="0" arrowType="0" onLink=""  />
-<linkType name="note+" visible="1" showLabel="1" required="1" colorString="#444444" style="0" arrowType="0" onLink=""  />
-<linkType name="prototype" visible="0" showLabel="1" required="1" colorString="#993333" style="512" arrowType="0" onLink=""  />
-<linkType name="response" visible="1" showLabel="1" required="0" colorString="#000000" style="0" arrowType="0" onLink=""  />
-<linkType name="update" visible="1" showLabel="1" required="0" colorString="#000000" style="0" arrowType="0" onLink=""  />
-</linkTypes>
-<item ID="1635595609" Creator="Arkadiusz Szlaga" >
-<attribute name="Created" >2021-10-30T11:18:09+02:00</attribute>
-<attribute name="MapScrollX" >0</attribute>
-<attribute name="MapScrollY" >0</attribute>
-<attribute name="Modified" >2021-10-30T11:18:09+02:00</attribute>
-<attribute name="Name" >Media Społecznościowe w Zarządzaniu</attribute>
-<attribute name="Xpos" >0</attribute>
-<attribute name="Ypos" >0</attribute>
-<item ID="1635585541" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Created" >2021-10-30T11:19:00+02:00</attribute>
-<attribute name="DominantLanguage" >nl</attribute>
-<attribute name="Height" >1.904541016</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2021-10-30T11:19:00+02:00</attribute>
-<attribute name="Name" >Makroekonomia</attribute>
-<attribute name="SelectionCount" >2</attribute>
-<attribute name="Width" >4.514038086</attribute>
-<attribute name="Xpos" >-7.502807617</attribute>
-<attribute name="Ypos" >-8.865356445</attribute>
-</item>
-<item ID="1635585593" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Created" >2021-10-30T11:19:52+02:00</attribute>
-<attribute name="Height" >2.887589086</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2021-10-30T11:19:52+02:00</attribute>
-<attribute name="Name" >Współczesne koncepcje zarządzania (ĆW)</attribute>
-<attribute name="SelectionCount" >7</attribute>
-<attribute name="Width" >5.323608398</attribute>
-<attribute name="Xpos" >-7.635131836</attribute>
-<attribute name="Ypos" >2.056884766</attribute>
-</item>
-<item ID="1635585626" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Created" >2021-10-30T11:20:25+02:00</attribute>
-<attribute name="Height" >2.887589086</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2021-10-30T11:20:25+02:00</attribute>
-<attribute name="Name" >Współczesne koncepcje zarządzania (W)</attribute>
-<attribute name="SelectionCount" >6</attribute>
-<attribute name="Width" >4.672119141</attribute>
-<attribute name="Xpos" >-2.162536621</attribute>
-<attribute name="Ypos" >-9.131752042</attribute>
-</item>
-<item ID="1635585676" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Created" >2021-10-30T11:21:15+02:00</attribute>
-<attribute name="Height" >2.507420789</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2021-10-30T11:21:15+02:00</attribute>
-<attribute name="Name" >Warsztaty menedżerskie</attribute>
-<attribute name="SelectionCount" >4</attribute>
-<attribute name="Width" >4.057006836</attribute>
-<attribute name="Xpos" >10.38171387</attribute>
-<attribute name="Ypos" >-8.941667894</attribute>
-</item>
-<item ID="1635585685" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Created" >2021-10-30T11:21:24+02:00</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2021-10-30T11:21:24+02:00</attribute>
-<attribute name="Name" >Statystyka w biznesie</attribute>
-<attribute name="SelectionCount" >4</attribute>
-<attribute name="Xpos" >-1.532653809</attribute>
-<attribute name="Ypos" >2.45605549</attribute>
-</item>
-<item ID="1635585818" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Created" >2021-10-30T11:23:37+02:00</attribute>
-<attribute name="Height" >2.507420789</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2021-10-30T11:23:37+02:00</attribute>
-<attribute name="Name" >Rynek nowych mediów</attribute>
-<attribute name="SelectionCount" >4</attribute>
-<attribute name="Width" >4.057006836</attribute>
-<attribute name="Xpos" >15.31762695</attribute>
-<attribute name="Ypos" >-8.941667894</attribute>
-</item>
-<item ID="1635585843" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Created" >2021-10-30T11:24:02+02:00</attribute>
-<attribute name="Height" >2.515342533</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2021-10-30T11:24:02+02:00</attribute>
-<attribute name="Name" >Komunikacja marketingowa</attribute>
-<attribute name="SelectionCount" >2</attribute>
-<attribute name="Width" >4.069824219</attribute>
-<attribute name="Xpos" >20.94006348</attribute>
-<attribute name="Ypos" >-8.945628766</attribute>
-</item>
-<item ID="1635585859" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Created" >2021-10-30T11:24:18+02:00</attribute>
-<attribute name="Height" >3.050626135</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2021-10-30T11:24:18+02:00</attribute>
-<attribute name="Name" >Przedsiębiorczość (W)</attribute>
-<attribute name="SelectionCount" >5</attribute>
-<attribute name="Width" >4.935913086</attribute>
-<attribute name="Xpos" >3.403076172</attribute>
-<attribute name="Ypos" >-9.213270567</attribute>
-</item>
-<item ID="1635585876" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Created" >2021-10-30T11:24:39+02:00</attribute>
-<attribute name="Height" >3.050626135</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2021-10-30T11:24:39+02:00</attribute>
-<attribute name="Name" >Przedsiębiorczość (ĆW)</attribute>
-<attribute name="SelectionCount" >7</attribute>
-<attribute name="Width" >4.935913086</attribute>
-<attribute name="Xpos" >2.555786133</attribute>
-<attribute name="Ypos" >1.860742422</attribute>
-</item>
-<item ID="1635585949" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Created" >2021-10-30T11:25:48+02:00</attribute>
-<attribute name="DominantLanguage" >pl</attribute>
-<attribute name="Height" >3.050626135</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2021-10-30T11:25:48+02:00</attribute>
-<attribute name="Name" >Marketing międzynarodowy</attribute>
-<attribute name="SelectionCount" >3</attribute>
-<attribute name="Width" >4.935913086</attribute>
-<attribute name="Xpos" >10.38171387</attribute>
-<attribute name="Ypos" >-5.271182896</attribute>
-</item>
-<item ID="1635585974" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Created" >2021-10-30T11:26:13+02:00</attribute>
-<attribute name="Height" >2.171425648</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2021-10-30T11:26:13+02:00</attribute>
-<attribute name="Name" >Prawo cywilne</attribute>
-<attribute name="SelectionCount" >3</attribute>
-<attribute name="Width" >3.513366699</attribute>
-<attribute name="Xpos" >-7.002471924</attribute>
-<attribute name="Ypos" >-4.831582653</attribute>
-</item>
-<item ID="1635585990" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Created" >2021-10-30T11:26:29+02:00</attribute>
-<attribute name="DominantLanguage" >pl</attribute>
-<attribute name="Height" >2.484334561</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2021-10-30T11:26:29+02:00</attribute>
-<attribute name="Name" >Ochrona własności intelektualnej</attribute>
-<attribute name="SelectionCount" >2</attribute>
-<attribute name="Width" >4.01965332</attribute>
-<attribute name="Xpos" >-1.836303711</attribute>
-<attribute name="Ypos" >-4.988037109</attribute>
-</item>
-<item ID="1635586006" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Created" >2021-10-30T11:26:45+02:00</attribute>
-<attribute name="Height" >2.311489638</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2021-10-30T11:26:45+02:00</attribute>
-<attribute name="Name" >Business English B2+</attribute>
-<attribute name="SelectionCount" >1</attribute>
-<attribute name="Width" >3.739990234</attribute>
-<attribute name="Xpos" >-7.635131836</attribute>
-<attribute name="Ypos" >5.887695312</attribute>
-</item>
-<item ID="1635594970" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Created" >2021-10-30T13:56:09+02:00</attribute>
-<attribute name="DominantLanguage" >pl</attribute>
-<attribute name="Height" >3.200686612</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Modified" >2021-10-30T13:56:09+02:00</attribute>
-<attribute name="Name" >Systematyczny przegląd literatury i tworzenie bibliografii</attribute>
-<attribute name="SelectionCount" >3</attribute>
-<attribute name="Width" >5.178710938</attribute>
-<attribute name="Xpos" >-2.311523438</attribute>
-<attribute name="Ypos" >5.443096826</attribute>
-</item>
-<adornment ID="1635585717" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Color" >#81a589</attribute>
-<attribute name="Created" >2021-10-30T11:21:56+02:00</attribute>
-<attribute name="DominantLanguage" >pl</attribute>
-<attribute name="Height" >10.51057078</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Lock" >true</attribute>
-<attribute name="Modified" >2021-10-30T11:21:56+02:00</attribute>
-<attribute name="Name" >Ćwiczenia</attribute>
-<attribute name="Searchable" >false</attribute>
-<attribute name="SelectionCount" >12</attribute>
-<attribute name="SortAlsoTransform" >normal</attribute>
-<attribute name="SortTransform" >normal</attribute>
-<attribute name="Sticky" >true</attribute>
-<attribute name="Width" >17.04760742</attribute>
-<attribute name="Xpos" >-8.02355957</attribute>
-<attribute name="Ypos" >-0.126147974</attribute>
-</adornment>
-<adornment ID="1635585687" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Color" >#877700</attribute>
-<attribute name="Created" >2021-10-30T11:21:26+02:00</attribute>
-<attribute name="DominantLanguage" >en</attribute>
-<attribute name="Height" >10.35017431</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Lock" >true</attribute>
-<attribute name="Modified" >2021-10-30T11:21:26+02:00</attribute>
-<attribute name="Name" >Konwersatorium</attribute>
-<attribute name="Searchable" >false</attribute>
-<attribute name="SelectionCount" >7</attribute>
-<attribute name="Shape" >rectangle</attribute>
-<attribute name="SortAlsoTransform" >normal</attribute>
-<attribute name="SortTransform" >normal</attribute>
-<attribute name="Sticky" >true</attribute>
-<attribute name="Width" >16.74658203</attribute>
-<attribute name="Xpos" >9.524047852</attribute>
-<attribute name="Ypos" >-10.96681619</attribute>
-</adornment>
-<adornment ID="1635585578" Creator="Arkadiusz Szlaga" >
-<attribute name="Associates" ></attribute>
-<attribute name="Color" >#778f97</attribute>
-<attribute name="Created" >2021-10-30T11:19:37+02:00</attribute>
-<attribute name="DominantLanguage" >pl</attribute>
-<attribute name="Height" >10.51057078</attribute>
-<attribute name="IsComposite" >false</attribute>
-<attribute name="Lock" >true</attribute>
-<attribute name="Modified" >2021-10-30T11:19:37+02:00</attribute>
-<attribute name="Name" >Wykłady</attribute>
-<attribute name="Searchable" >false</attribute>
-<attribute name="SelectionCount" >11</attribute>
-<attribute name="SortAlsoTransform" >normal</attribute>
-<attribute name="SortTransform" >normal</attribute>
-<attribute name="Sticky" >true</attribute>
-<attribute name="Width" >17.00610352</attribute>
-<attribute name="Xpos" >-8.002807617</attribute>
-<attribute name="Ypos" >-11.13671875</attribute>
-</adornment>
-</item>
-<links >
-</links>
-<macros >
-</macros>
-<preferences >
-<Creator > Arkadiusz Szlaga</Creator>
-<ToolbarVisible > 1</ToolbarVisible>
-<OpenTextImmediately > 0</OpenTextImmediately>
-<Tinderbox5Wizard > 1</Tinderbox5Wizard>
-<DynamicSpelling > 1</DynamicSpelling>
-<AutoOpen > 1</AutoOpen>
-<AutomaticBackup > 1</AutomaticBackup>
-<ReopenLastDocument > 0</ReopenLastDocument>
-<Autosave > 0</Autosave>
-<KeepWindowsOpen > 1</KeepWindowsOpen>
-<LeftMargin > 2</LeftMargin>
-<RightMargin > -2</RightMargin>
-<ParagraphSpacing > 4</ParagraphSpacing>
-<TextFont > MercurySSm-Book</TextFont>
-<NewTextSize > 16</NewTextSize>
-<TextJust > 0</TextJust>
-<AlwaysShowTextLinks > 1</AlwaysShowTextLinks>
-<ShowWikiLinks > 1</ShowWikiLinks>
-<TextLinkFrames > 1</TextLinkFrames>
-<TextLinkColorString > #0066cc</TextLinkColorString>
-<TextBackgroundColorString > white</TextBackgroundColorString>
-<SmartQuotes > 1</SmartQuotes>
-<TextWindowWidth > 6</TextWindowWidth>
-<TextWindowHeight > 6</TextWindowHeight>
-<AutoIndentLists > 1</AutoIndentLists>
-<ShowTitle > 0</ShowTitle>
-<TitleFont > IdealSansSSm-Book</TitleFont>
-<TitleSize > 2</TitleSize>
-<TitleJust > 2</TitleJust>
-<MapShowLinks > 1</MapShowLinks>
-<MapEnacted > 1</MapEnacted>
-<InPlaceEditing > 1</InPlaceEditing>
-<MapLabelSizeNew > 16</MapLabelSizeNew>
-<MapBackgroundColorString > gray</MapBackgroundColorString>
-<MapBackgroundColorString2 > gray</MapBackgroundColorString2>
-<OpaqueAdornments > 0</OpaqueAdornments>
-<MapBackgroundPattern > plain</MapBackgroundPattern>
-<PrototypeHighlightColorString > #cceecc</PrototypeHighlightColorString>
-<MapFont > IdealSansSSm-Book</MapFont>
-<DarkenOutlineColors > 1</DarkenOutlineColors>
-<BlackOutlineText > 0</BlackOutlineText>
-<WhiteOutlineText > 0</WhiteOutlineText>
-<UnderlineAliases > 0</UnderlineAliases>
-<AutomaticLinkDetection > 1</AutomaticLinkDetection>
-<HiddenTabBar > 0</HiddenTabBar>
-<TextPaneSelectorHidden > 1</TextPaneSelectorHidden>
-<ForbidAnalytics > 0</ForbidAnalytics>
-<OutlineLeading > 2</OutlineLeading>
-<InteriorScale > 1</InteriorScale>
-<InteriorScaleNew > 1.5</InteriorScaleNew>
-<ExpandMode > 1</ExpandMode>
-<AfterLinkingSelect > 1</AfterLinkingSelect>
-<ExportImageFormat > 1</ExportImageFormat>
-<ExportURL > http://</ExportURL>
-<ExportHTMLHelper > Safari</ExportHTMLHelper>
-<ExportHTMLExtension > 1</ExportHTMLExtension>
-<HTMLParagraphStyle > 1</HTMLParagraphStyle>
-<HTMLViewFont > IdealSansSSm-Book</HTMLViewFont>
-<HTMLViewFontSize > 2</HTMLViewFontSize>
-<ExportTemplatePath > plain</ExportTemplatePath>
-<RoadmapWindowWidth > 0</RoadmapWindowWidth>
-<RoadmapWindowHeight > 0</RoadmapWindowHeight>
-<TextExportViewFont > IdealSansSSm-Book</TextExportViewFont>
-<TextExportViewFontSize > 2</TextExportViewFontSize>
-<ExportTextTemplatePath > outline</ExportTextTemplatePath>
-<ExportTextHelper > TextEdit</ExportTextHelper>
-<AskToDelete > 2</AskToDelete>
-<DailyTip > 1</DailyTip>
-<WarnEditingDefault > 1</WarnEditingDefault>
-<WarnDuplicateName > 1</WarnDuplicateName>
-<RunScriptsAutomatically > 1</RunScriptsAutomatically>
-<Version > version 9.0.0</Version>
-<PreferencePane > 0</PreferencePane>
-<LastBadgeFamily > 1</LastBadgeFamily>
-<TipWindowX > 300</TipWindowX>
-<TipWindowY > 50</TipWindowY>
-<RegUserName > Arkadiusz Szlaga</RegUserName>
-<RegUserOrg > </RegUserOrg>
-<CurrentAttributeClass > </CurrentAttributeClass>
-<CurrentAttribute > </CurrentAttribute>
-<FindCaseSensitive > 1</FindCaseSensitive>
-<ExportFolder > ~/Desktop</ExportFolder>
-<ReadOnly > 0</ReadOnly>
-<InfoWindowHeight > 0</InfoWindowHeight>
-<InfoWindowWidth > 0</InfoWindowWidth>
-<RecentFiles > </RecentFiles>
-<PingServer > http://rpc.weblogs.com/RPC2</PingServer>
-<PingMethod > weblogUpdates.ping</PingMethod>
-<PingTitle > your weblog name</PingTitle>
-<PingURL > weblog URL</PingURL>
-<PingTechnorati > 1</PingTechnorati>
-<PingWeblogsCom > 1</PingWeblogsCom>
-<PingGoogle > 1</PingGoogle>
-<PingFeedURL > </PingFeedURL>
-<WeblogServer > http://your_host/cgi-bin/mt/mt-xmlrpc.cgi</WeblogServer>
-<WeblogUser > </WeblogUser>
-<WeblogPassword > </WeblogPassword>
-<WeblogID > 1</WeblogID>
-<WeblogKind > 2</WeblogKind>
-<ToolbarKind > 0</ToolbarKind>
-<ReadingReminders > 0</ReadingReminders>
-<AllowViews > 1</AllowViews>
-<AutomaticAgentUpdate > 1</AutomaticAgentUpdate>
-<ToolbarX > 0</ToolbarX>
-<ToolbarY > 0</ToolbarY>
-<FindWindowX > 600</FindWindowX>
-<FindWindowY > 100</FindWindowY>
-<RenameWindowX > -1</RenameWindowX>
-<RenameWindowY > -1</RenameWindowY>
-<InspectorX > 1081</InspectorX>
-<InspectorY > 209</InspectorY>
-<EnterKeyAction > 0</EnterKeyAction>
-<UpdateViewShown > </UpdateViewShown>
-<TimelineScale > 1000</TimelineScale>
-<TimelineLabelSize > 0</TimelineLabelSize>
-<GetInfoPane > </GetInfoPane>
-<GetInfoCategory > </GetInfoCategory>
-<GetInfoSelection > </GetInfoSelection>
-<LastLinkName > *untitled</LastLinkName>
-<UsingGuides > 1</UsingGuides>
-<TextColorString > black</TextColorString>
-<TextBackgroundColorString > white</TextBackgroundColorString>
-<SystemAttributesCategory > </SystemAttributesCategory>
-<SystemAttributesSelection > </SystemAttributesSelection>
-<CheckMail > 0</CheckMail>
-<MailHost > </MailHost>
-<MailUser > </MailUser>
-<MailPassword > </MailPassword>
-<CheckSimplenote > 0</CheckSimplenote>
-<SimplenoteEmail > </SimplenoteEmail>
-<SimplenotePassword > </SimplenotePassword>
-<SimplenoteTag > </SimplenoteTag>
-<MapBackgroundColor > 0 0 0</MapBackgroundColor>
-<MapBackgroundColor2 > 0 0 0</MapBackgroundColor2>
-<TextColor > 0 0 0</TextColor>
-<TextBackgroundColor > 65535 65535 65535</TextBackgroundColor>
-<TextSize > 16</TextSize>
-<TitleBackgroundColor > 0 0 0</TitleBackgroundColor>
-<TitleForegroundColor > 65535 65535 65535</TitleForegroundColor>
-<ActiveLinkColor > 65535 0 0</ActiveLinkColor>
-<VisitedLinkColor > 26112 0 52224</VisitedLinkColor>
-<MagnifyFonts > 1</MagnifyFonts>
-<MagnifyPictures > 1</MagnifyPictures>
-<RememberWindowPositions > 1</RememberWindowPositions>
-<ExportHTMLCreator > 1</ExportHTMLCreator>
-<ExportTextCreator > 1</ExportTextCreator>
-<ShowSidebar > 1</ShowSidebar>
-<MapPrototypeColor > 52428 61166 52428</MapPrototypeColor>
-<TextLinkColor > 0 26112 52224</TextLinkColor>
-<MapLabelSize > 3</MapLabelSize>
-<LastVersionString > b523</LastVersionString>
-</preferences>
-<windows >
-<window bounds="Rect[ 0 57 1920 1055]" ruler="0" toolbar="0" >
-<tabs >
-<tab selected="1" name="" subtitle="" viewType="0" usingRoadmap="0" hideBreadcrumbs="0" scale="32" ID="1635595609" scrollX="965" scrollY="458" selection="" expanded="" textTab="0" splitRatio="0.298958" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1635595608" crosslinks="0" spread="0.5" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="12" showFilter="0" filterString="" filterName=""  />
-<tab selected="0" name="" subtitle="" viewType="1" usingRoadmap="0" hideBreadcrumbs="0" scale="32" ID="1635595609" scrollX="0" scrollY="0" selection="" expanded="" textTab="0" splitRatio="0.5" xattribute="Name" xattribute2="Height" xdisplayattribute="DisplayName" xbarattribute="OutlineOrder" xcontainer="" xquery="" xqueryLabel="" xbins="5" xunlimited="0" xbins2="5" xunlimited2="0" xheatmap="0" xReportStyle="0" spacing="0.35" aspect="2" hyperbolicScale="1" path="" focus="1635595608" crosslinks="0" spread="0.5" hasBorder="0" isVertical="0" isCentered="1" lineType="0" itemWidth="220" xspace="10" yspace="10" showColumns="0" usingCheckboxes="0" columnString="" treemapExpression="" treemapColorExpression="" treemapBorderColorExpression="$Color" treemapColorStart="#fffef9100" treemapColorEnd="#ccd5bf100" treemapDepth="0" attribute="" container="" bins="10" sortAttribute="" sortDirections="0" summaryAttribute="" summaryMethod="" query="" queryLabel="" action="" actionLabel="" fontSize="12" showFilter="0" filterString="" filterName=""  />
-</tabs>
-</window>
-</windows>
-<utilityWindows >
-</utilityWindows>
-<searches >
-</searches>
-<filters >
-</filters>
-<gallery >
-</gallery>
-<badges limit="7" >
-</badges>
-<preview >
-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HfEP4udONUXgotDH4BpkH5UrYTBHl32sr5ZJGJIBAc51xonsozGyxgxI65DTkAVIwaLKGNI6ZMRsEbiO9vVPUd8euFzoc6zj+OdgtewcT0nPahTeFLQCOBrF6eOVKuqv9cG8qEccVEbLXJEciqpTPMNv28enu5icdpdtdPmVUHEuKju5ebMpevur+FA/o8ZQO8nNeV27pNMVVIFt7IYuukupQj0IRj90dYl8rNRKCorEM0euCjkVBy6yOFhRaxu2RvoixsV9W0+nKyjvaZRjTve0z0wlDjqYaZKC+oPjyFOzuhOUrXvxS1XD5U0rwKPcy40fyGSMQ8Bhm9VV/T8elrXM+YCgzOSvAwTlVQwI3H94QJDFMKDWFhAjfQGIuO85gPCe/mmAoIxpKiCgPXPcsiEjomL79pmrKoE9PCL2qzVugimIAB6a1VVQvDjECV/9/kQQCcq4lT505UdvcUdkMikhG45FJEA4XO8SMtSYKINH9RRvAq85IXPGibFI4ba4UJpiERQ1WZRaQQajlko3NxaShyyKL0f7+qfOjkUXedqnE51hmfhK9GgG/26WoLqdbj/hzIftxNrSBT/d1kX1QbCDz79W2wb3Ep0NDgIVdUCavJh2bUS1A1LfDV//rT4tb0eHzSdUp9LnBV2exFWEb8IXLVKvnhe4ZhTI8RKXup2cwg1WErCeRkUFSFyjedzC6OP2lDBIlxnaugJkBQ0Fi9AKDeVKCu7SxFmExZG+lOrRBcuu7zmsd5GjfdjSNYY2E7aYE+4JsN2lecdh6yYHGEfqArvRToCtu+rBfciBYWP1dzpsqey2O7F/R2kCNcGiKLu5gUIhhfkYhlShMuGME/mYEooCrI7iJf0lDizgGpZ1WQJaE7YY10f6+qfO5eOLHN3HNWrREvK/wJ/iRCB4AcWGY5v5v6QJxJSgpnrni133uBjxBHm/if8k4s3/Aa0qet0KZW5kc3RyZWFtCmVuZG9iagoxIDAgb2JqCjw8IC9UeXBlIC9QYWdlIC9QYXJlbnQgMiAwIFIgL1Jlc291cmNlcyA0IDAgUiAvQ29udGVudHMgMyAwIFIgL01lZGlhQm94IFswIDAgMTMyOSA4OTddCj4+CmVuZG9iago0IDAgb2JqCjw8IC9Qcm9jU2V0IFsgL1BERiAvVGV4dCBdIC9Db2xvclNwYWNlIDw8IC9DczEgNSAwIFIgPj4gL0V4dEdTdGF0ZSA8PCAvR3MxCjEwIDAgUiAvR3MyIDExIDAgUiAvR3MzIDEyIDAgUiAvR3M0IDEzIDAgUiAvR3M1IDE0IDAgUiAvR3M2IDE1IDAgUiA+PiAvRm9udAo8PCAvVGMxIDYgMCBSIC9UYzIgNyAwIFIgL1RjMyA4IDAgUiAvVGM0IDkgMCBSID4+ID4+CmVuZG9iagoxMCAwIG9iago8PCAvVHlwZSAvRXh0R1N0YXRlIC9DQSAwLjM3NSA+PgplbmRvYmoKMTEgMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0ZSAvY2EgMC4xNDA2ID4+CmVuZG9iagoxMiAwIG9iago8PCAvVHlwZSAvRXh0R1N0YXRlIC9jYSAwLjM3NSA+PgplbmRvYmoKMTMgMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0ZSAvQ0EgMC43NSA+PgplbmRvYmoKMTQgMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0ZSAvY2EgMSA+PgplbmRvYmoKMTUgMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0ZSAvQ0EgMSA+PgplbmRvYmoKMTYgMCBvYmoKPDwgL04gMyAvQWx0ZXJuYXRlIC9EZXZpY2VSR0IgL0xlbmd0aCAyNjEyIC9GaWx0ZXIgL0ZsYXRlRGVjb2RlID4+CnN0cmVhbQp4AZ2Wd1RT2RaHz703vdASIiAl9Bp6CSDSO0gVBFGJSYBQAoaEJnZEBUYUESlWZFTAAUeHImNFFAuDgmLXCfIQUMbBUURF5d2MawnvrTXz3pr9x1nf2ee319ln733XugBQ/IIEwnRYAYA0oVgU7uvBXBITy8T3AhgQAQ5YAcDhZmYER/hEAtT8vT2ZmahIxrP27i6AZLvbLL9QJnPW/3+RIjdDJAYACkXVNjx+JhflApRTs8UZMv8EyvSVKTKGMTIWoQmirCLjxK9s9qfmK7vJmJcm5KEaWc4ZvDSejLtQ3pol4aOMBKFcmCXgZ6N8B2W9VEmaAOX3KNPT+JxMADAUmV/M5yahbIkyRRQZ7onyAgAIlMQ5vHIOi/k5aJ4AeKZn5IoEiUliphHXmGnl6Mhm+vGzU/liMSuUw03hiHhMz/S0DI4wF4Cvb5ZFASVZbZloke2tHO3tWdbmaPm/2d8eflP9Pch6+1XxJuzPnkGMnlnfbOysL70WAPYkWpsds76VVQC0bQZA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YdzhrMPP66Lqur9nf19/RO1I8ZHPR4VHpcfCj3XVO9TXN6g3lDbCjZLGseNxx2/94PVDexOr6VAzo7n4BDghOfHix/gf754MPNl5in2q6Sf9n/a20FqKWqHW3NaJtqQ2aXtMe9/pgNOdHc4dLT+b/3z0jPaZmrPKZ0vPkc4VnJs5n3d+8kLGhfGLiReHOld0Prq05NKdrrCu3suBl69e8blyqdu9+/xVl6tnrjldO32dfb3thv2N1h67npZf7H5p6bXvbb3pcLP9luOtjr4Ffef6Xfsv3va6feWO/50bA4sG+u4uvnv/Xtw96X3e/dEHqQ9eP8x6OP1o/WPs46InCk8qnqo/rf3V+Ndmqb307KDXYM+ziGePhrhDL/+V+a9PwwXPqc8rRrRG6ketR8+M+YzderH0xfDLjJfT44W/Kf6295XRq59+d/u9Z2LJxPBr0euZP0reqL45+tb2bedk6OTTd2nvpqeK3qu+P/aB/aH7Y/THkensT/hPlZ+NP3d8CfzyeCZtZubf94Tz+wplbmRzdHJlYW0KZW5kb2JqCjUgMCBvYmoKWyAvSUNDQmFzZWQgMTYgMCBSIF0KZW5kb2JqCjIgMCBvYmoKPDwgL1R5cGUgL1BhZ2VzIC9NZWRpYUJveCBbMCAwIDEzMjkgODk3XSAvQ291bnQgMSAvS2lkcyBbIDEgMCBSIF0gPj4KZW5kb2JqCjE3IDAgb2JqCjw8IC9UeXBlIC9DYXRhbG9nIC9QYWdlcyAyIDAgUiAvVmVyc2lvbiAvMS40ID4+CmVuZG9iago2IDAgb2JqCjw8IC9UeXBlIC9Gb250IC9TdWJ0eXBlIC9UeXBlMSAvQmFzZUZvbnQgL0FBQUFBQitSaW5nc2lkZUNvbmRlbnNlZFNTbS1MaWdodAovRm9udERlc2NyaXB0b3IgMTggMCBSIC9FbmNvZGluZyAvTWFjUm9tYW5FbmNvZGluZyAvRmlyc3RDaGFyIDc1IC9MYXN0Q2hhcgoxMjIgL1dpZHRocyBbIDU3OCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgODY0IDAgMCAwIDAgMCAwIDAgMCAwIDUyNiAwIDUwMyA1NTUKNTE0IDAgMCAwIDI1NyAwIDQ5NCAwIDg0MSA1NTYgNTMwIDAgMCAzNzIgNDg2IDM2NiA1NTYgMCA3MjUgMCA0ODYgNDU3IF0gPj4KZW5kb2JqCjE4IDAgb2JqCjw8IC9UeXBlIC9Gb250RGVzY3JpcHRvciAvRm9udE5hbWUgL0FBQUFBQitSaW5nc2lkZUNvbmRlbnNlZFNTbS1MaWdodCAvRmxhZ3MKMzIgL0ZvbnRCQm94IFstMTg5IC0zNjggMTAxOSAxMTI1XSAvSXRhbGljQW5nbGUgMCAvQXNjZW50IDk2MCAvRGVzY2VudCAtMjAwCi9DYXBIZWlnaHQgNzIzIC9TdGVtViAwIC9MZWFkaW5nIDM3IC9YSGVpZ2h0IDU0NSAvQXZnV2lkdGggMzgwIC9NYXhXaWR0aCAxMjcwCi9Gb250RmlsZTMgMTkgMCBSID4+CmVuZG9iagoxOSAwIG9iago8PCAvU3VidHlwZSAvVHlwZTFDIC9MZW5ndGggNTc1MiAvRmlsdGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeAFtWGlYFEe0HWC6q6dLx8SkSTKT7gZ3RTTukiCCgCAiIAjIMiDrgMiOiAoSAQUXRHDBBUVlVUR2WWSRoIKKCy7grnFLolGfMUk11vjeK5L33q/HfHwzNV1T362qc+495+rJ5PoyPT29UVZDfwtMXMOjtPHhwSHW0VHBIVHxIcFubpGmjuHasIShWRMktUz6Vl/iDSRD+bZh8m3D8VKd/GPOx0Hq22H6I74dNvHz0m+Hh46UGejpyY1mT5sy/X/XM/q/BY3Iikb/rPj/P5NlkoBk4bJKWbusU/ZJb5TeBb1Lelf1bujd1nuib6DP6M/RX64fpd+q36H/l4GhgdogwCDDYI9Bh8GgwSe5vpyRW8gXyD3lvvIQ+VZ5rnyvvFx+WX5L/oL6jDKkMqijVDd1n3pEvaD16WH0N/Rk+jvag46m19Jp9EV6gP6F/p3+C0wDrkADQkEEiAFrQB5oBb+APxg5wzBKZjpjx6xiEpi1TDKTxRQyx5k6pp05z7xkJOaTwkDxpUJQfK+Yp7BR2CtcFFpFpCJBkaLYqNis2Ko4qChUFCkaFC2KdkWP4qrijuKB4onireKDAiv+i2XY4ezX7Gh2CjuTtWDtWCfWnfVm/bhp3t52YjoIPaqtWyusWLc6LECVBmzbNS9fdDT3CbtBQ8KpgAKh7tCRqmrVLnDNp3Wa4CVvrEzUiCkgJCx+hX9YUY2wHzRXHmkS8DO5T9ixZnE/qK0qaWmuig0WUoBGm6ARlNx6nHIm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wnLIWCQQY2FJjIWyAbUPVnNYHD8aq/DX70YjEfHvP6CvkWrsB8wTWY6G352JiUicN5OwbfgPTxGNwP2naLgIt/EDUgNQzsBfiZjsiBuodf5exDPBD4FOVvYOV58J6Bvw9PLVa4JynYCDPi09zGLl4BQugt+Ck7m/dBSFw4irCWBxsWEAq7Tidfa0DpA+1kP6NVpKoXRaCpHrxuEggAKkcZQSrUBGaBxRfr7IGI/DKwSI1fPmYhlW9Pmg4RqItUgxaOrDwo1J6zcnqLXxh+sLdx7LPyrmFx8qqjkDB7XpPEzko5BZIjlnXjloTHwJl47dqUa6CrlTsAV9qXoJ4A+ko/YDaUr8K9s1/KCWg4t4peFTGsdLpigGXaWm07hUN4GSJpC2211E7g9xFNyblbN5c1bmj6k7Mnfu3JGTT+IzxuOxL3kZofEkdduw8CA7MNhOLn8Tt66SimLhgZJoEe2SNlD5MXnhIapAVlDm8g3FLCaWvJ+0Tjwq6wP71X/3PkSsiOaT21vy2Bi+QSYiigfIhPiMp4N53PhHaTznjs53Arif1bDwdDHL/fy3L72180TN2YNMOTBLDPKyUMHQ7QQstdyT1upruazYDT1Y9CVpFtwjbsIAbo5TB8ccbj6aV7SvhJxYYRnkptz/FcDzgbUO5Dw3b4SdIVVO65IzyafBRA4msbbI9ZPxvUFj5NYH4MB7MZf0bOwgN+HRW7LBSVMgt5/etSVnc2ZWVhopXO0c5D7NuYUygU9FTQgJ9FM7BHgSTOVpSN0lPcVswsmvng+55W18P7QMJXfjgI73ErItHtxIzEYCq6QsaAiQAfxvsHJY1AplbmRzdHJlYW0KZW5kb2JqCjcgMCBvYmoKPDwgL1R5cGUgL0ZvbnQgL1N1YnR5cGUgL1R5cGUxIC9CYXNlRm9udCAvQUFBQUFDK1JpbmdzaWRlQ29uZGVuc2VkU1NtLUxpZ2h0Ci9Gb250RGVzY3JpcHRvciAyMCAwIFIgL0VuY29kaW5nIDw8IC9UeXBlIC9FbmNvZGluZyAvRGlmZmVyZW5jZXMgWyAzMyAvbHNsYXNoCi9DYWN1dGUgXSA+PiAvVG9Vbmljb2RlIDIxIDAgUiAvRmlyc3RDaGFyIDMzIC9MYXN0Q2hhciAzNCAvV2lkdGhzIFsgMjkxIDYwOQpdID4+CmVuZG9iagoyMSAwIG9iago8PCAvTGVuZ3RoIDIzNSAvRmlsdGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeAFdkMtqxDAMRff+Ci2ni8EPSlfGUGYYyKIPmvYDElsJhsY2jrPI31f2TKfQxV1Iuke+Fj915y74Avw9R9tjgckHl3GNW7YII84+MKnAeVtuVevZZUiME9zva8GlC1MErRkA/yBkLXmHw7OLIz7U3lt2mH2Y4fB16lun31L6xgVDAcGMAYcTrXsZ0uuwIPCGHjtHc1/2I1F/js89IVAiIuQ1ko0O1zRYzEOYkWkhjL5cDMPg/o3UFRinm1NJo6uEfFSGaaWoJAkpnhr+a6yb6o/vCe2WM4VrZ2m5ax4f8H65FFN9v+kHbrhzHwplbmRzdHJlYW0KZW5kb2JqCjIwIDAgb2JqCjw8IC9UeXBlIC9Gb250RGVzY3JpcHRvciAvRm9udE5hbWUgL0FBQUFBQytSaW5nc2lkZUNvbmRlbnNlZFNTbS1MaWdodCAvRmxhZ3MKNCAvRm9udEJCb3ggWy0xODkgLTM2OCAxMDE5IDExMjVdIC9JdGFsaWNBbmdsZSAwIC9Bc2NlbnQgOTYwIC9EZXNjZW50IC0yMDAKL0NhcEhlaWdodCA3MjMgL1N0ZW1WIDAgL0xlYWRpbmcgMzcgL1hIZWlnaHQgNTQ1IC9BdmdXaWR0aCAzODAgL01heFdpZHRoIDEyNzAKL0ZvbnRGaWxlMyAyMiAwIFIgPj4KZW5kb2JqCjIyIDAgb2JqCjw8IC9TdWJ0eXBlIC9UeXBlMUMgL0xlbmd0aCA1NTc3IC9GaWx0ZXIgL0ZsYXRlRGVjb2RlID4+CnN0cmVhbQp4AW2YeVgUx5vHOaa7erpwTEyaJDN2N6jxQjTeYhAhgCAqIAjIMSAgDIjcA6KCREDBAxE8EEFRORWRWw45gwcqonhAvI1XEv2p609jDdawu0Wyu3/tzDNPT0/X1PNW1fd96/MtXR2Jno6uru44q5GXtYlLaIQqNnRtkHVkxNqgiNigta6u4abLQ1Uh6pFWkzUKHc1YPQ2vrzGU7DKQ7BqFV2oln7M+D1FjDaSjxxp88WXpWIPSMToSXV2J0TzzmdNn/W+HRv/XoxHp0ujvLv//Z9b+gXHqIJ10EpdOqE6lTrtOl86w7jjdi7pXdPt0b+re0X2ip6/H6M3XW60Xodeq16H3l76hvkLfXz9N/4B+h/6Q/rBET8JILCQ/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/E0d2OmUtNYugokAL47DYGL4A3gYzGJD6MZfjeZp2ZFIKrvg6N4CRfOR+IiA6I1eYaH7cyPFpBAqqbwx+awC+rBn1QRsdgKSfzbfQ0M091Eaa/YOzxVwEH5i4fEr/p2+18ehYmTRgS3QEfQlIERuOULkakLkloTIZQ2ofaiaw+Kk8ViOv303HomIf/8BfYvk33/APOFZNOruHEzoatEckm2jfnyKaATuP0WjRLiLH9Q0ANls/I2IyYi4wVqnhSKeA34McLSyd+h7JqDvwNOrfdcF2SYBBw6vPMpi2dB0LozfgRO5v7QUhUOIHfBncbGhPyuz4rX2tBaQA6CH9Gu0kkKptCZIop2IAwHy10ykZGgNMkITCXf5IGM8Ea8RIFYsWoB1sLTfG41SQqxC0iFTbxZuTdi8Xa1QxR6tL9x7Ive4mFt8pKjmHBxSpfIwno9AZvFknnnZkDEBei4Vu1GNdBVyo2AL+lr+EsAfyVHUj8TN/8O7Sn5IxcGlvMzwKY1jNaYoCvVRs2hcqp1MaSaT86q7iKwf4ih4MCNr+/aM9J+T96Tv3bsnK5fEZ4wnYR/yNkKTSOm2YWE+OzjUThZ/G7epkopg4eGSSBHt02yhcqNyQoPkAawgy+YbillMvOwAOXNwr6wPGFB86n2IWBEtJqu34rExfINMRBQLkAkB9KdDOdykRyk854YudAGYxypZeLaY5X775EPv7DpV05nPlAOz+EBPCzkM3k3EUss9aa2+ns2Kl6A7i74mLvsewXB9uD1GsTbqaPPxnKJDJWTGCssgN/3+HwBeCKh1IPO5fSvsCqpy3JSYTr4NxXMwgbVFLsPG94aMkWs/gIPvxWxy2GEHucmP3pIBTp0OuTx6346s7ekZGSlk42rnIDc8/zZKB94VNUEk0OF2CPBUmMzTkLpLDuMySU5+83zEZu7iB6BlMFkbB3SylyTbsqGthNLVrIyyoCFA+vC/Ad26Cd8KZW5kc3RyZWFtCmVuZG9iago4IDAgb2JqCjw8IC9UeXBlIC9Gb250IC9TdWJ0eXBlIC9UeXBlMSAvQmFzZUZvbnQgL0FBQUFBRCtJZGVhbFNhbnNTU20tQm9vayAvRm9udERlc2NyaXB0b3IKMjMgMCBSIC9FbmNvZGluZyAvTWFjUm9tYW5FbmNvZGluZyAvRmlyc3RDaGFyIDMyIC9MYXN0Q2hhciAxNTEgL1dpZHRocyBbIDI0NgowIDAgMCAwIDAgMCAwIDQ3NCA0NzQgMCA2NDUgMCAwIDAgMCAwIDAgNTYwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwCjY1NSAwIDAgNTc5IDAgMCAwIDAgMCA2ODIgMCA5MjggMCA4NTQgNjA0IDAgNjY3IDU2MCAwIDAgMCAxMDM4IDAgMCAwIDAgMCAwCjAgMCAwIDU1NSA2MjcgNTQ5IDYyNiA1NzQgMzgyIDU0MyA2MjIgMjc4IDI3OCA1MzcgMjc4IDkyNyA2MjIgNjE3IDYyNyAwIDM5Mgo0NzYgNDAyIDYyMyAwIDc5OSAwIDUzNCA1MjQgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwCjAgMCAwIDAgMCA2MTcgXSA+PgplbmRvYmoKMjMgMCBvYmoKPDwgL1R5cGUgL0ZvbnREZXNjcmlwdG9yIC9Gb250TmFtZSAvQUFBQUFEK0lkZWFsU2Fuc1NTbS1Cb29rIC9GbGFncyAzMiAvRm9udEJCb3gKWy0xNjIgLTI4NSAxMzAwIDExOTddIC9JdGFsaWNBbmdsZSAwIC9Bc2NlbnQgOTYwIC9EZXNjZW50IC0yNDAgL0NhcEhlaWdodAo3MDMgL1N0ZW1WIDk2IC9YSGVpZ2h0IDUwNSAvU3RlbUggODMgL0F2Z1dpZHRoIDI3OCAvTWF4V2lkdGggMTUyNCAvRm9udEZpbGUzCjI0IDAgUiA+PgplbmRvYmoKMjQgMCBvYmoKPDwgL1N1YnR5cGUgL1R5cGUxQyAvTGVuZ3RoIDc4MTYgL0ZpbHRlciAvRmxhdGVEZWNvZGUgPj4Kc3RyZWFtCngBhZl3WBTX3vh3gdnZnUM2N8wdAzvOrAp6NaJRjD1WUIogCNjAgkqTIn0XBBQV2TYLqKigIr13xBqM9dpRYy8BLDFRE00zOUMOuXnPanLvfZ/f+zy//Wf3mZ3zPe1bP1+pxMZKIpVKHWZZPm4jPUPDVsUErFqXFBAQO2p2XFy05c/RIisRB1qJnLXI2CBbW+seWxvTe2gCahtI/H2gTRMxUCl7f6By4QedA5lJdhJrqdTmw6FjR7u8FTbIIm0QFjfIIu5/P5LsxpNLhkuSJOmSVskzqbV0iHSs1Ee6VXpcet3qb1YTrLZbHbX63Apa77SusHG2OWbz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w4VRmArfbO843BbVPLsU38TytGYO2P36UlS9BJq+KKwCQAg0y5Nxmy4NQ9UTFqgKlkWHzQ3h8byDUh9bwNuatxILLfJOWYACaG3XNbM/3Dh2qzOsdeIeLPY9DIhxXCShDeYIGWAYPr/rXwPyrPGU6ZRRKLf0aeWgnLoNYG7uf9QShzZJluXsACSvQhLgFsMeSk+A3xe2YSq/sJ0DuU28IT5cn8TmrTCDZGPEdgrEYeUGjzA8x2blMWOFxYkx2S2brmxt0EI7e+BrmJoTwgs/FwgseCw+fix98tLSJtBTwNYJ0+GmrHu6WnmKbPN6YML+cKTmqOab04B5G+FAK3uqSpO0dkWsE345xQj+B2NGKGcKZW5kc3RyZWFtCmVuZG9iago5IDAgb2JqCjw8IC9UeXBlIC9Gb250IC9TdWJ0eXBlIC9UeXBlMSAvQmFzZUZvbnQgL0FBQUFBRStJZGVhbFNhbnNTU20tQm9vayAvRm9udERlc2NyaXB0b3IKMjUgMCBSIC9FbmNvZGluZyA8PCAvVHlwZSAvRW5jb2RpbmcgL0RpZmZlcmVuY2VzIFsgMzMgL2FvZ29uZWsgL2xzbGFzaCAvc2FjdXRlCi9lb2dvbmVrIC9jYWN1dGUgL0NhY3V0ZSAvemRvdGFjY2VudCBdID4+IC9Ub1VuaWNvZGUgMjYgMCBSIC9GaXJzdENoYXIgMzMKL0xhc3RDaGFyIDM5IC9XaWR0aHMgWyA1NTUgMjc4IDQ3NiA1NzQgNTQ5IDcxNyA1MjQgXSA+PgplbmRvYmoKMjYgMCBvYmoKPDwgL0xlbmd0aCAyNzIgL0ZpbHRlciAvRmxhdGVEZWNvZGUgPj4Kc3RyZWFtCngBXZFNbsMgEIX3nGKW6SIyuHGsSggpShXJi/6obg9gw9hCqjHCeOHbdyBpKnXxFt8MD+YNxbl5bpyNULyHWbcYYbDOBFzmNWiEHkfrmCjBWB1vlGt66jwryNxuS8SpccMMUjKA4oMsSwwb7E5m7vEh1d6CwWDdCLuvc5sr7er9N07oInCmFBgc6LqXzr92E0KRrfvGUN/GbU+uvxOfm0egicghriPp2eDiO42hcyMyybmSl4ti6My/Vn019MPtZCmUTOKCV4rJsiQkcXEoEz4Skrio+oQHQhIX4ilhRUgib53wSEgiPCasCUlc1DpP8vtmGiot7x5WryFQzrzhvIIUzTq8f4KffYqS9QNMP4LOCmVuZHN0cmVhbQplbmRvYmoKMjUgMCBvYmoKPDwgL1R5cGUgL0ZvbnREZXNjcmlwdG9yIC9Gb250TmFtZSAvQUFBQUFFK0lkZWFsU2Fuc1NTbS1Cb29rIC9GbGFncyA0IC9Gb250QkJveApbLTE2MiAtMjg1IDEzMDAgMTE5N10gL0l0YWxpY0FuZ2xlIDAgL0FzY2VudCA5NjAgL0Rlc2NlbnQgLTI0MCAvQ2FwSGVpZ2h0CjcwMyAvU3RlbVYgOTYgL1hIZWlnaHQgNTA1IC9TdGVtSCA4MyAvQXZnV2lkdGggMjc4IC9NYXhXaWR0aCAxNTI0IC9Gb250RmlsZTMKMjcgMCBSID4+CmVuZG9iagoyNyAwIG9iago8PCAvU3VidHlwZSAvVHlwZTFDIC9MZW5ndGggNjcyMyAvRmlsdGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeAGleWlAU9fWdgKcnJOzaXol91jIMScO6K11qGIVlTogKoIgClQUFFGZZJA5AQFFBZKcnAAqKojIPM/gXKyK1nmqEw4Fp9ahtna4tjt00/ruYNt7+33v9+vLDxKSsPdeaz1r7ed5EIusLERisdjO2fyYN8YtOGR1lM/q9Qk+PtHj5sTERJo/HG9iRaYhFialpYmxQtbWlr3WVoZ30BTUNoT45xCrJmKIbMq7Q2SugzqH/OOujUgqFlu9N3Ksw9RZ87wmjncYWHKoec2heNGh5kX//tbqmLCY9SGRLqvXJiWGrB34GfL2rYSBXzYExySuXrs2ZH2iaDc+rOh9UYIoVdQq+lpsKR4unij2FGeJj4mvWfzDYorFdosjFp9ZQMudlhVWY62OWv1A0EQeUUccJW4Tz4nviN8kcom9ZIxklmSRJEGSI7kn6SPfI5WkPTmG/JB0IXXkTrKQLCUryaPkBfIG2U1+S/5Iyajh1ChqAuVIuVMrqXBKTWVQeqqQ6qLOULeoXupr6pVULv2XdLJ0tnSudIk0UBop1Ug3SnlprnSHtFBaJm2UHpIek56U3pE+lb6mLWiSVtGj6dn0XHoBvYKOo7Pp7XQBXUbX0I30CfomfYd+Sf8OBoEhYAT4AHwM5gIPsASsBnFAAzaDPFAAqkEL6ARnwU3wCDwF34BfrC2sZdaDrTnrUdYTrSdbz7ZeaL3Eemk67a6fn72OruH3tytgNxxCthjL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VJhWG9V9GzTVmjoNeGuRv4d9M6BWakHpYhrkaW0/T29JTVIkp2+NS4jatjOOA/qScn0JWyJ5djgJqzsWySZMQuIltUs/jVCBKy1EUu3hDcdZOBFaQ1v4kQqs9b3vzvqsDUOSZBXAZiz9+AcVqkISBqyKj40JVkRUJrSkckBToSnTYAVeh+N4g1XeG1F9hsgGhCy/5cX6Ba8bukEFkCdm3bymSVOjAdtpAcgzROYHNltqc6spYCpOp8HEoKa2htqWa3UqEEov0IP/ODR7qmjZv5TL5pBx04hXyCgBTMnFRsjueRCjW7Y1WitMykYWmVOxJdCVzviYdf8v0JkAHcFmpQFvvrAERi+M0ajQKMAUn6mHNoV343T+mTFaYVr2yKyZlCxUTQP50LcnMtSzNwGcmJP5GgXtjLcryyN2lUNLuM6gAHk12GGiscNk2KXLzc7Wac3i0rApR5uXl5Nrfr00+wH8uTehAnyt7TVdfJBSDKAckS+wkRWsN5cVC/a+6b3JGpvLr0wl32PBvnsKIdMnc4A7Iuw3dGHrgZKc4A8YOnkB7FA3mX2WHJxcGIFtmBvt+w+1RTTPKcWVWJnSrAQ2v3xjUnwD1H0RGAJA8DVSidgXT8EuxnGziwFWRIbMD+LwvkOTH5mV7tqBFQvM653U2Dx7AVrbtc3sD9eP3uwMaXXcg5d9Bys1fC+S0Oq5pSkNjML5u/YUkKf5k4aTvFBu/scIBcrpWwDm5PwHlvhqE2WYcwcgeQWSAHt6e2gdAX77pA3bYJ+0K0FOE6ePDdUlsLmBRpDIh22nQQwGN3iI3SrcVgtmBZqHGJPZsvlSVoMG2tgCL71TdhAn/DtfYMEj06NH4sffmH05HQ2s7bEd05RxR1tLJUm2bAAGPA/HqI+on3UBZuCGA63sySp1wrrAaHv85SQe/A9AtDt5CmVuZHN0cmVhbQplbmRvYmoKMjggMCBvYmoKPDwgL1Byb2R1Y2VyIChtYWNPUyBWZXJzaW9uIDEyLjAuMSBcKEJ1aWxkIDIxQTU1OVwpIFF1YXJ0eiBQREZDb250ZXh0KSAvQ3JlYXRpb25EYXRlCihEOjIwMjExMDMwMTIxMDM1WjAwJzAwJykgL01vZERhdGUgKEQ6MjAyMTEwMzAxMjEwMzVaMDAnMDAnKSA+PgplbmRvYmoKeHJlZgowIDI5CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMjU2NCAwMDAwMCBuIAowMDAwMDA1OTIzIDAwMDAwIG4gCjAwMDAwMDAwMjIgMDAwMDAgbiAKMDAwMDAwMjY2OSAwMDAwMCBuIAowMDAwMDA1ODg3IDAwMDAwIG4gCjAwMDAwMDYwNzEgMDAwMDAgbiAKMDAwMDAxMjQ5OSAwMDAwMCBuIAowMDAwMDE4OTkyIDAwMDAwIG4gCjAwMDAwMjc2NTAgMDAwMDAgbiAKMDAwMDAwMjg4OCAwMDAwMCBuIAowMDAwMDAyOTM3IDAwMDAwIG4gCjAwMDAwMDI5ODcgMDAwMDAgbiAKMDAwMDAwMzAzNiAwMDAwMCBuIAowMDAwMDAzMDg0IDAwMDAwIG4gCjAwMDAwMDMxMjkgMDAwMDAgbiAKMDAwMDAwMzE3NCAwMDAwMCBuIAowMDAwMDA2MDA3IDAwMDAwIG4gCjAwMDAwMDYzODggMDAwMDAgbiAKMDAwMDAwNjY1NiAwMDAwMCBuIAowMDAwMDEzMDU3IDAwMDAwIG4gCjAwMDAwMTI3NDkgMDAwMDAgbiAKMDAwMDAxMzMyNCAwMDAwMCBuIAowMDAwMDE5NDg1IDAwMDAwIG4gCjAwMDAwMTk3NDMgMDAwMDAgbiAKMDAwMDAyODMwMiAwMDAwMCBuIAowMDAwMDI3OTU3IDAwMDAwIG4gCjAwMDAwMjg1NTkgMDAwMDAgbiAKMDAwMDAzNTM3MyAwMDAwMCBuIAp0cmFpbGVyCjw8IC9TaXplIDI5IC9Sb290IDE3IDAgUiAvSW5mbyAyOCAwIFIgL0lEIFsgPGYyMmE4ZDNiNDYxOGI1ZjQ2MWM1NTRjY2VmNDE2NGMxPgo8ZjIyYThkM2I0NjE4YjVmNDYxYzU1NGNjZWY0MTY0YzE+IF0gPj4Kc3RhcnR4cmVmCjM1NTM4CiUlRU9GCg==</preview>
-</tinderbox>
