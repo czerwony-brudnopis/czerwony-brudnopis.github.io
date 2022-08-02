@@ -1,1 +1,1 @@
-Kod źródłowy mojego bloga. CSS zaczerpnięty od jednego z użytkowników należacego do forum Tinderboxa -> https://forum.eastgate.com .
+Kod źródłowy mojego bloga. CSS zaczerpnięty od bcrane z forum Tinderboxa -> https://forum.eastgate.com .
